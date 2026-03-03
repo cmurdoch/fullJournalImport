@@ -1,0 +1,68 @@
+msgid "plugins.importexport.fullJournalImport.name"
+msgstr "Full Journal Import"
+
+msgid "plugins.importexport.fullJournalImport.description"
+msgstr "Import journal content (users, issues, submissions, workflow history, and files) from a JSON archive produced by the Full Journal Export Plugin."
+
+msgid "plugins.importexport.fullJournalImport.settings.title"
+msgstr "Import Settings"
+
+msgid "plugins.importexport.fullJournalImport.settings.excludedEmails.label"
+msgstr "Excluded Email Addresses"
+
+msgid "plugins.importexport.fullJournalImport.settings.excludedEmails.description"
+msgstr "Enter email addresses or patterns to exclude from user import. These accounts will not be imported but will be mapped to existing accounts if found."
+
+msgid "plugins.importexport.fullJournalImport.settings.excludedEmails.help"
+msgstr "One email or pattern per line. Use * as wildcard (e.g. *@aut.ac.nz, admin@example.com)"
+
+msgid "plugins.importexport.fullJournalImport.settings.save"
+msgstr "Save Settings"
+
+msgid "plugins.importexport.fullJournalImport.settings.saved"
+msgstr "Settings saved successfully."
+
+msgid "plugins.importexport.fullJournalImport.import.title"
+msgstr "Import Journal Content"
+
+msgid "plugins.importexport.fullJournalImport.import.description"
+msgstr "Upload a .tar.gz archive produced by the Full Journal Export Plugin. Use Dry Run first to validate without making changes."
+
+msgid "plugins.importexport.fullJournalImport.import.mode"
+msgstr "Import Mode"
+
+msgid "plugins.importexport.fullJournalImport.import.mode.full"
+msgstr "Full (users + content)"
+
+msgid "plugins.importexport.fullJournalImport.import.mode.users"
+msgstr "Users only"
+
+msgid "plugins.importexport.fullJournalImport.import.mode.content"
+msgstr "Content only (users already imported)"
+
+msgid "plugins.importexport.fullJournalImport.import.file"
+msgstr "Export Archive File (.tar.gz)"
+
+msgid "plugins.importexport.fullJournalImport.import.dryrun"
+msgstr "Dry Run (Validate Only)"
+
+msgid "plugins.importexport.fullJournalImport.import.execute"
+msgstr "Execute Import"
+
+msgid "plugins.importexport.fullJournalImport.import.confirm"
+msgstr "Are you sure you want to execute this import? This will modify the database. It is strongly recommended to run a Dry Run first."
+
+msgid "plugins.importexport.fullJournalImport.dryrun.title"
+msgstr "Dry Run Validation Report"
+
+msgid "plugins.importexport.fullJournalImport.report.title"
+msgstr "Import Report"
+
+msgid "plugins.importexport.fullJournalImport.error.noFile"
+msgstr "Please upload an export archive file."
+
+msgid "plugins.importexport.fullJournalImport.error.fileNotFound"
+msgstr "Uploaded file not found or has expired."
+
+msgid "plugins.importexport.fullJournalImport.error.importFailed"
+msgstr "Import failed"
